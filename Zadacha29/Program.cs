@@ -9,10 +9,10 @@ int[] arr = new int[n];
 for (int i = 0; i < arr.Length; i++)
  {
     arr [i] = new Random().Next(0, 100);
-    Console.Write( " " + Method (i) + " " );
+    Console.Write( " " + OutMeth (i) + " " );
  }
 
-int Method (int a)
+int OutMeth (int a)
 {
     return arr[a];
 }
